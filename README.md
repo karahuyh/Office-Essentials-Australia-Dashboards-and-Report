@@ -1,59 +1,125 @@
-# Office Essentials Australia Dashboards and Report
-## 📖 Project Objective 
-The objective of the report is to analyze historical sales and customer data (2019-2024) to uncover key trends, performance drivers, and challenges faced by Office Essentials Australia (OEA). It aims to provide actionable insights and strategic recommendations that will:
+<div align="center">
 
-- Enhance sales and margin performance
-- Improve customer retention
-- Support data-driven decision-making
-- Guide future competitive positioning in a changing market
+# Office Essentials Australia Business Intelligence Analytics
 
-## 📌 Context
-Company: Office Essentials Australia (OEA), a national office supplies provider.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![DAX](https://img.shields.io/badge/DAX-Analytics-blue)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-green)
+![Customer Analytics](https://img.shields.io/badge/Customer-Analytics-purple)
+![Forecasting](https://img.shields.io/badge/Forecasting-Predictive-orange)
+
+#### Business Health Assessment • Customer Segmentation • CLV Analysis • Churn Analytics • Forecasting • Tableau 
+
+</div>
+
+## 📖 Project Overview 
+Developed a comprehensive Business Intelligence solution to evaluate business performance, customer behaviour, product profitability and retention opportunities for a national office supplies retailer - Office Essentials Australia (OEA).
+
+## Table of Content
+
+## Project Highlights
+| Area | Project|
+| ------------- | ------------- |
+| Data Understanding | Content Cell  |
+| Data Preparation  | Content Cell  |
+| Tableau Delivery | Content Cell  |
+| RFM Modelling | Content Cell  |
+
+## Dataset Snapshot
+
+## Data Assets
+### Core prepared files
+Using 6-year (2019 to 2024) transactional dataset of 125k records 
+Data Model:
+- Transaction Table
+- Product Table
+- Client Table
+
+| File | Description|
+| ------------- | ------------- |
+| OEA Transaction 2019-2024 Dataset.xlsx | Content Cell  |
+| BI Report Part B.pdf  | Content Cell  |
+| Tableau Dashboards and Viz Part B.twbx | Content Cell  |
+
+
+## 📌 Business Context
+OEA is an Australian supplier of office stationery, technology, and furniture serving businesses of various sizes. 
 
 Industry environment: Volatile, Uncertain, Complex, and Ambiguous (VUCA), shaped by:
 
+- Declining product margins
+- Customer churn
 - Post-pandemic workplace shifts
 - Digital transformation
 - ESG (Environmental, Social, Governance) pressures
-- Rising competition from firms like Wesfarmers and Winc
+- Rising competition 
+
 
 ## Tools
-Tableau Prep Builder, Tableau Desktop, Excel
+| Tools | Software |
+| ------------- | ------------- |
+| Tableau Prep Builder | Content Cell  |
+| Tableau Desktop  | Content Cell  |
+| Excel | Content Cell  |
+| RFM Modelling | Content Cell  |
 
-**Steps**
-- Conducted Data Wrangling and ETL processes on a 6-year transactional dataset of 125k+ records using Tableau Prep Builder
-- Produced 6+19 interactive dashboards to monitor KPIs, regional performance map, churn rate, cohort retention, sales performance metrics, and What-if forecasting models to simulate pricing and demand scenarios and potential margin decline trends.
-- Built a predictive forecast for the 2025 - 2026 fiscal periods to support demand trend analysis
-    
-    Regulatory/conceptual frameworks:
-    
-- ESG considerations (e.g., sustainable product offerings)
-- Customer behavior analysis based on Reserve Bank of Australia (RBA) reports
-- Application of industry studies on payment models (e.g., Buy Now, Pay Later) and loyalty programs
+
+
+# Tableau Dashboard
+https://public.tableau.com/views/ProfitPerformance_17527498663840/ProfitPerformancein2023Vs_2024?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Local report files:
+
+Report pages:
+1. Executive Overview
+2. Introduction
+   - Overall Business Health Assessment
+   - Deep dive on Customer Base
+   - Product Performance Analysis
+   - Customer Lifetime Value & Churn Rate
+  
+3. Conclusion
+4. Appendix
+5. Infographic
+
+
+Dashboard screenshot:
+Business Health Assessment
+<img width="1316" height="711" alt="Screenshot 2026-06-23 at 3 56 50 PM" src="https://github.com/user-attachments/assets/ed03175d-3abc-42d5-b1d5-439de59b3776" />
+*Profit Performance in 2023 Vs. 2024*
+
+
+<img width="1262" height="704" alt="Screenshot 2026-06-23 at 3 58 21 PM" src="https://github.com/user-attachments/assets/6ea51e42-1d1e-4153-ac71-de8fe1a6963f" />
+*YoY Sales Vs. Target Percentages Differences*
+
+
+<img width="1270" height="715" alt="Screenshot 2026-06-23 at 4 02 45 PM" src="https://github.com/user-attachments/assets/ea80594c-2d69-451b-8bae-4a83977d0d0c" />
+*Regional Performance Analysis: YoY Growth and Sales Quadrant by States*
+
+
+<img width="1265" height="699" alt="Screenshot 2026-06-23 at 4 03 36 PM" src="https://github.com/user-attachments/assets/1183b3fb-1ff2-402a-ae60-05490a9f6e0a" />
+*Regional Performance Analysis: YoY Growth and Sales Quadrant by Cities*
+
+
 
 ## The Approach and Process
-Data Collection
-Dataset: OEA’s transactional sales and customer data from 2019 to 2024.
+The analysis was conducted through four major stages:
 
-Data attributes included:
+1. Business Health Assessment using KPIs, regional analysis, forecasting, and scenario modelling.
 
-- Sales amount and targets by state and product category
-- Customer transaction timelines
-- Monthly and yearly comparisons
-- Retention and churn statistics
 
-## End Results and Recommendations
-### **Outcomes**
+3. Customer Analysis using RFM segmentation, profitability segmentation, and product preference analysis.
+4. Product Performance Analysis evaluating sales, margins, pricing sensitivity, and top customers.
+5. Customer Value Analysis using CLV, churn rate, and retention cohort analysis to identify opportunities for improving customer loyalty and profitability.
 
-The outcomes of the report show that Office Essentials Australia (OEA) has maintained strong sales performance across multiple regions, particularly in New South Wales and Victoria due to their larger economic presence. However, a major challenge remains in the form of high customer churn, which started during the pandemic and continues despite overall economic recovery. The analysis also revealed three key trends influencing the market: rapid digitalization, increased interest in sustainable products, and the stabilization of hybrid work arrangements. These findings led to several strategic recommendations, including the introduction of customer feedback systems, enhancement of loyalty programs, adoption of flexible payment options, and expansion into sustainable product lines.
+# Key Findings and Recommendations
+## **Outcomes**
 
-### **Reflections**
+- Identified high-value customer segments driving the majority of revenue.
+- Uncovered regional growth opportunities and underperforming markets.
+- Evaluated product margin performance and pricing sensitivity.
+- Highlighted customer churn risks and lifetime value trends to support retention strategies.
 
-In terms of reflection, the report development process demonstrated the value of data-driven decision-making. The use of Tableau enabled the clear presentation of complex data, allowing for actionable insights to be derived. Working with real transactional data helped reinforce the importance of accurate data cleaning, thoughtful analysis, and meaningful forecasting. The experience highlighted the critical role of aligning business strategies with evolving customer expectations and industry trends, especially in a competitive and dynamic environment like the office supply sector.
-
-### **Conclusion**
-
-This case study illustrated how Office Essentials Australia has navigated a dynamic and competitive business environment by leveraging data-driven insights. Through the analysis of sales and customer data from 2019 to 2024, the study highlighted the company’s strong performance in economically dominant regions such as New South Wales and Victoria, while also identifying persistent challenges like high customer churn and growing industry competition. The case study also revealed key market trends, including accelerated digitalization, increased interest in sustainable alternatives, and the establishment of hybrid work as a long-term norm. In response to these findings, several strategic recommendations were made, such as enhancing customer feedback mechanisms, strengthening loyalty programs, introducing flexible payment options, and expanding sustainable product offerings. By applying these strategies, Office Essentials Australia can improve customer retention, adapt to changing market conditions, and maintain its competitive edge in the evolving office supply sector.
-
-For a deeper dive into the visualizations, the project's Tableau Workbook is attached at the start of the page.
+## Recommendations
+Proposed customer segmentation strategies, predictive retention initiatives, product bundling, dynamic pricing, and regional expansion opportunities to improve profitability, increase customer lifetime value, and support sustainable business growth.
   
